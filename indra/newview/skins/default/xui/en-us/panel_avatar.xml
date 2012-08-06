@@ -146,6 +146,7 @@
 			<scroll_list background_visible="true" bottom="-282" column_padding="5" draw_border="true"
 			     follows="left|top" height="90" left="79" mouse_opaque="false"
 			     multi_select="false" name="groups" width="321" />
+			<string name="None">None</string>
 			<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
 			     bottom="-304" drop_shadow_visible="true" follows="left|top"
 			     font="SansSerifSmall" h_pad="0" halign="right" height="16" left="4"
@@ -234,7 +235,7 @@
 			     left_delta="90" mouse_opaque="true" name="auto_load"
 			     tool_tip="Automatically load ALL profile webpages without asking first."
 			     width="127" />
-			<web_browser border_visible="false" bottom="-444" follows="top|left|right" height="400"
+      <web_browser border_visible="false" bottom="-444" follows="top|left|right" height="400"
 			     ignore_ui_scale="false" left="10" name="profile_html" start_url=""
 			     width="400" />
 			<text bottom="5" follows="bottom|left|right" left="15" name="status_text" right="-70"
