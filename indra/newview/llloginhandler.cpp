@@ -57,8 +57,7 @@ bool LLLoginHandler::parseDirectLogin(std::string url)
 	parse(uri.queryMap());
 
 	if (mWebLoginKey.isNull() ||
-		mFirstName.empty() ||
-		mLastName.empty())
+		mFirstName.empty() 
 	{
 		return false;
 	}
